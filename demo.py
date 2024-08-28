@@ -1,4 +1,10 @@
 import streamlit as st
+import pandas as pd
+
+df = pd.read_csv('https://www.kaggle.com/code/zhenlifsu/data-intern-job-analysis/input?select=Data_Salaries.csv')
+
+df
+
 
 st.title("The first streamlit app!")
 
@@ -17,5 +23,7 @@ with col2:
     st.write("the square of :red[**x**]is: ", x*x)
 
 st.header("Three", divider=True)
+st.write("This is a :red[book] text")
 
 st.header("Four", divider=True)
+df_filtered.iloc[0:10,:]
