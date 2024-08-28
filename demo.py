@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-url = 'https://raw.githubusercontent.com/username/repo-name/main/data/Data_Salaries.csv'
+url = 'https://raw.githubusercontent.com/zhenliferris/learing_streamlit/main/data/Data_Salaries.csv'
 df = pd.read_csv(url)
 
 df
