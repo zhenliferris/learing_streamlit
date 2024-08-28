@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
 
-df = pd.read_csv(r'./data/Data_Salaries.csv')
+# df = pd.read_csv(r'./data/Data_Salaries.csv')
 
-df
+# df
 
 
 st.title("The first streamlit app!")
