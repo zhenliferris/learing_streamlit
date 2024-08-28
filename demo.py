@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-df = pd.read_csv('https://www.kaggle.com/code/zhenlifsu/data-intern-job-analysis/input?select=Data_Salaries.csv')
+df = pd.read_csv(r'./data/Data_Salaries.csv')
 
 df
 
