@@ -1,9 +1,10 @@
 import streamlit as st
 import pandas as pd
 
-# df = pd.read_csv(r'./data/Data_Salaries.csv')
+url = 'https://raw.githubusercontent.com/username/repo-name/main/data/Data_Salaries.csv'
+df = pd.read_csv(url)
 
-# df
+df
 
 
 st.title("The first streamlit app!")
