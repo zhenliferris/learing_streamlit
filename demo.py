@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 st.title("Data Intern Job Analysis")
 
 # Loading data from the URL
-url = 'https://raw.githubusercontent.com/zhenliferris/learing_streamlit/ver1/data/Data_salaries_modified.csv'
+url = 'https://raw.githubusercontent.com/zhenliferris/learing_streamlit/main/data/Data_salaries_modified.csv'
 df = pd.read_csv(url)
 
 # Display the data source information
