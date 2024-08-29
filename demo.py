@@ -1,11 +1,6 @@
 import streamlit as st
 import pandas as pd
 
-url = 'https://raw.githubusercontent.com/zhenliferris/learing_streamlit/main/data/Data_Salaries.csv'
-df = pd.read_csv(url)
-
-df
-
 
 st.title("The first streamlit app!")
 
@@ -27,4 +22,8 @@ st.header("Three", divider=True)
 st.write("This is a :red[book] text")
 
 st.header("Four", divider=True)
-df_filtered.iloc[0:10,:]
+
+url = 'https://raw.githubusercontent.com/zhenliferris/learing_streamlit/main/data/Data_salaries_modified.csv'
+df = pd.read_csv(url)
+df
+
