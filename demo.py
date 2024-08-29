@@ -105,6 +105,7 @@ max_df = df.groupby(group_by)[metric].max()
 
 # Sort and get the top N
 top_n_df = max_df.sort_values(ascending=False).head(top_n).reset_index()
+top_n_df = top_n_df.sort_values(by=metric, ascending=True)
 
 # Plotting the bar chart
 fig, ax = plt.subplots()
